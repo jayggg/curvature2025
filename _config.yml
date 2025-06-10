@@ -7,18 +7,14 @@ logo: NGSlogo.png
 copyright : "2025"  # Copyright year to be placed in the footer
 
 repository:
-  url: https://github.com/JSchoeberl/treasuretrove
+  url: https://github.com/jayggg/curvature2025
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: auto
   timeout: 3000
-  exclude_patterns:
-        - "plates/*"
-        - "SaS/test*/*"
-        - "SaS/examples/*"
-        - "CFD/test*/*"
+  # exclude_patterns:
   
 # Define the name of the latex output file for PDF builds
 # latex:
