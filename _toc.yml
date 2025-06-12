@@ -9,3 +9,4 @@ parts:
     numbered: True
     chapters:
       - file: Extrinsic.ipynb
+      - file: Intrinsic.ipynb
